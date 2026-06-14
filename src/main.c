@@ -139,6 +139,7 @@ void Loop(Window *window)
 {
     while (1)
     {
+        system("clear");
         Update(window);
         Clear(window);
         Draw(window);
